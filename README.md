@@ -5,7 +5,7 @@
   
 **🎯 Contexte & cahier des charges** : développé dans le cadre du cours de programmation avancée.
 
-**🎲 Règles** du jeu : maquette, déroulé d'une partie, conditions de victoire
+**🎲 Règles du jeu** : maquette, déroulé d'une partie, conditions de victoire
       **Maquette "Poule, Renard, Vipère"**
 
   Déroulé d'une Partie
@@ -38,7 +38,8 @@
      - La victoire est déterminée par l'accomplissement d'objectifs spécifiques définis par l'équipe.
      - Coopérez stratégiquement pour éliminer les membres de l'équipe adverse et atteindre les conditions de victoire.
 
-    
+    ![Untitled design](https://github.com/Thaninux/Poule-Renard-Vipere/assets/98581166/5e78c863-8dcd-4cb0-a929-f6104eb1e2a0)
+
 
 **🎮 Use cases**: 
     - pour l'administrateur : expliquer ce que peut/doit faire un administrateur qui souhaite lancer/administrer une arène de jeu avec des apprenants
