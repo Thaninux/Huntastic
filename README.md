@@ -1,9 +1,9 @@
 # PRVFFF
-- **Titre** ✨Huntastic✨
-- **Description** Chaque joueur a un rôle : une poule, un renard ou une vipère. Chasse sa proie, évite son prédateur, et libère ses coéquipiers emprisonnés.
+**✨Huntastic✨**
+**Description** Chaque joueur a un rôle : une poule, un renard ou une vipère. Chasse sa proie, évite son prédateur, et libère ses coéquipiers emprisonnés.
   
-- **🎯 Contexte & cahier des charges** : développé dans le cadre du cours de programmation avancée.
-- **🎲 Règles** du jeu : maquette, déroulé d'une partie, conditions de victoire
+**🎯 Contexte & cahier des charges** : développé dans le cadre du cours de programmation avancée.
+**🎲 Règles** du jeu : maquette, déroulé d'une partie, conditions de victoire
       **Maquette "Poule, Renard, Vipère"**
 
     ### Déroulé d'une Partie
@@ -36,23 +36,23 @@
        - La victoire est déterminée par l'accomplissement d'objectifs spécifiques définis par l'équipe.
        - Coopérez stratégiquement pour éliminer les membres de l'équipe adverse et atteindre les conditions de victoire.
 
-- **🎮 Use cases**: 
+**🎮 Use cases**: 
     - pour l'administrateur : expliquer ce que peut/doit faire un administrateur qui souhaite lancer/administrer une arène de jeu avec des apprenants
     - 
     - pour le joueur : renvoyer vers README API
     - 
       
-- **🖧 Architecture matériel** (optionnel, peut être décrit avec le diagramme de séquence) : schéma overview présentant les machines et protocoles (serveurs, clients, broker) avec texte expliquant le choix des technologies 
-- **📞 Diagramme de séquence**: expliquer le déroulé d'une partie, les principales étapes à faire dans l'ordre et qui/quoi/comment, les couches s'échangent quelles données pour qui/pour quoi
-- 
-- **✅ Pré-requis** 
+**🖧 Architecture matériel** (optionnel, peut être décrit avec le diagramme de séquence) : schéma overview présentant les machines et protocoles (serveurs, clients, broker) avec texte expliquant le choix des technologies 
+**📞 Diagramme de séquence**: expliquer le déroulé d'une partie, les principales étapes à faire dans l'ordre et qui/quoi/comment, les couches s'échangent quelles données pour qui/pour quoi
+ 
+**✅ Pré-requis** 
     - matériel et logiciel requis pour executer votre projet, pour l'administrateur 
     - pour les apprenants rediriger vers README API
-- **⚙️ Installation** : step by step (commandes à executer par l'administrateur, paquets à installer ...)
-- **🧪 Tests**: 
+**⚙️ Installation** : step by step (commandes à executer par l'administrateur, paquets à installer ...)
+**🧪 Tests**: 
     - définition du plan de test ce qu'on attend quand on fait quoi 
     - step by step pour lancer les tests
-- **🛣️ Roadmap**
-- **🧑‍💻 Auteur** Thanina GUERNINE, Hugo LE COUPANEC, Eva POTTIER
-- **⚖️ License**
+**🛣️ Roadmap**
+**🧑‍💻 Auteur** Thanina GUERNINE, Hugo LE COUPANEC, Eva POTTIER
+**⚖️ License**
 
