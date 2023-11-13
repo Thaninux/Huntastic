@@ -6,7 +6,7 @@
 **🎲 Règles** du jeu : maquette, déroulé d'une partie, conditions de victoire
       **Maquette "Poule, Renard, Vipère"**
 
-    ### Déroulé d'une Partie
+       Déroulé d'une Partie
     
     1. **Attribution des Rôles :**
        - Chaque joueur est assigné à l'un des trois rôles : Poule, Renard, ou Vipère.
@@ -30,11 +30,13 @@
     6. **Immunité au sein de l'Équipe :**
        - Les membres de l'équipe ne se font pas de mal entre eux, favorisant la coopération.
     
-    ### Conditions de Victoire
+     Conditions de Victoire
     
     - **Atteindre l'Objectif d'Équipe :**
        - La victoire est déterminée par l'accomplissement d'objectifs spécifiques définis par l'équipe.
        - Coopérez stratégiquement pour éliminer les membres de l'équipe adverse et atteindre les conditions de victoire.
+
+    
 
 **🎮 Use cases**: 
     - pour l'administrateur : expliquer ce que peut/doit faire un administrateur qui souhaite lancer/administrer une arène de jeu avec des apprenants
