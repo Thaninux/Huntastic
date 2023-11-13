@@ -2,7 +2,7 @@
 - **Titre** ✨Huntastic✨
 - **Description** Chaque joueur a un rôle : une poule, un renard ou une vipère. Chasse sa proie, évite son prédateur, et libère ses coéquipiers emprisonnés.
   
-- **🎯 Contexte & cahier des charges** : développé dans le cadre du cour de programmation avancée.
+- **🎯 Contexte & cahier des charges** : développé dans le cadre du cours de programmation avancée.
 - **🎲 Règles** du jeu : maquette, déroulé d'une partie, conditions de victoire
       **Maquette "Poule, Renard, Vipère"**
 
