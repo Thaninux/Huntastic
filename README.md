@@ -53,6 +53,6 @@
     - définition du plan de test ce qu'on attend quand on fait quoi 
     - step by step pour lancer les tests
 - **🛣️ Roadmap**
-- **🧑‍💻 Auteur**
+- **🧑‍💻 Auteur** Thanina GUERNINE, Hugo LE COUPANEC, Eva POTTIER
 - **⚖️ License**
 
