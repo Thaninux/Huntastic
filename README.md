@@ -8,7 +8,7 @@
 **🎲 Règles** du jeu : maquette, déroulé d'une partie, conditions de victoire
       **Maquette "Poule, Renard, Vipère"**
 
-     Déroulé d'une Partie
+  Déroulé d'une Partie
   
   1. **Attribution des Rôles :**
      - Chaque joueur est assigné à l'un des trois rôles : Poule, Renard, ou Vipère.
