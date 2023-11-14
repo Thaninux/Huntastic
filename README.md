@@ -38,7 +38,8 @@
      - La victoire est déterminée par l'accomplissement d'objectifs spécifiques définis par l'équipe.
      - Coopérez stratégiquement pour éliminer les membres de l'équipe adverse et atteindre les conditions de victoire.
 
-    ![Untitled design](https://github.com/Thaninux/Poule-Renard-Vipere/assets/98581166/5e78c863-8dcd-4cb0-a929-f6104eb1e2a0)
+  ** Resources**
+      -backgrounf généré avec l'ia de canva. 
 
 
 **🎮 Use cases**: 
