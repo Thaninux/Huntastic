@@ -39,7 +39,7 @@
      - Coopérez stratégiquement pour éliminer les membres de l'équipe adverse et atteindre les conditions de victoire.
 
   ** Resources**
-      -backgrounf généré avec l'ia de canva. 
+      -backgrouns généré avec l'IA de Canva. 
 
 
 **🎮 Use cases**: 
