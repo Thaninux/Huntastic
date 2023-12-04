@@ -1,5 +1,4 @@
-# PRVFFF
-**✨Huntastic✨**
+#✨Huntastic✨
 
 **Description** Chaque joueur a un rôle : une poule, un renard ou une vipère. Chasse sa proie, évite son prédateur, et libère ses coéquipiers emprisonnés.
   
