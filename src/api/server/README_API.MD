@@ -9,24 +9,30 @@ Déroulé d'une Partie
 
 Chaque joueur est assigné à l'un des trois rôles : Poule, Renard, ou Vipère.
 Les rôles définissent les interactions et les objectifs du joueur.
+
 2. **Chasse et Capture :**
 
 Les Poules chassent les Renards, les Renards chassent les Vipères, et les Vipères chassent les Poules.
 Les joueurs peuvent capturer leur proie en effectuant des actions spécifiques.
+
 3. **Libération et Réapparition :**
 
 Les joueurs ont le pouvoir de libérer leurs coéquipiers capturés.
 En cas d'élimination par leur proie, les joueurs réapparaissent instantanément à leur base.
+
 4. **Évasion de la Zone de Prison :**
 
 Les Poules, Renards et Vipères ont la capacité de libérer leurs compatriotes de la zone de prison.
+
 5. **Combat Corps à Corps :**
 
 Les joueurs attaquants ne subissent pas de dégâts au corps à corps.
 Les joueurs chassés prennent des dégâts lors des confrontations rapprochées.
+
 6. **Immunité au sein de l'Équipe :**
 
 Les membres de l'équipe ne se font pas de mal entre eux, favorisant la coopération.
+
 7. **Conditions de Victoire**
 
 Atteindre l'Objectif d'Équipe :
