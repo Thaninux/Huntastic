@@ -39,7 +39,7 @@
 
   ** Resources**
       -backgrouns généré avec l'IA de Canva. 
-![Alt text](relative%Huntastic/doc/Background.jpg?raw=true "Background")
+
 
 
 **🎮 Use cases**: 
