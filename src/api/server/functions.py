@@ -1,6 +1,10 @@
         import time
         import random
+        import json
+
+        #création de l'arene et des regles
         def createRules(agent):
+          
           agent.ruleArena("info", "⌛ Initialisation de l'agent...")
           while ( len(agent.game) == 0 ):
             agent.lookAt((agent.dir+1)%4)
@@ -96,6 +100,13 @@
           time.sleep(1)
 
         def playerAppeared(agentState, playerId, agent, teams):
+          """
+          :agentState: Etat du joueur
+          :playerId: Id du joueur
+          :agent: agent
+          :teams: Equipes
+          Gère l'arrivée d'un joueur et son placement dans une équipe
+          """
             agentState[playerId] = {}
             agentState[playerId]['state'] = 0
             agentState[playerId]['playerId'] = playerId
@@ -129,6 +140,11 @@
             agentState[playerId]['team'] = team
 
         def playerLeft(before, agentState, teams):
+          """
+          :before:
+          :agentState: Etat de l'agent (prison ou non)
+          :teams: Liste des joueurs d'une équipe
+          Cette fonction sert à gérer lorsque qu'un joueur quitte la partie."""
             for agentId in before:
                 disappeared = True
                 for playerN in agentState.keys():
@@ -139,6 +155,11 @@
                     teams[agentState[agentId]["team"]]-=1
 
         def playerAttack(agent, agentState):
+          """
+          :agent: L'agent
+          :agentState: Etat de l'agent (prison ou non)
+          Gère l'attaque entre deux agents
+          """
             for predator in agentState:
                 for prey in agentState:
                     if(agentState[predator]["team"] == (agentState[prey]["team"] +1) % 3):
@@ -157,14 +178,19 @@
 
 
         def free(team, agent, agentState):
-          """Prend en paramètre l'id de la team et procède à la libération de tous les membres en prison"""
+          """
+          :team: Equipe de l'agent
+          :agent: l'agent
+          :agentState: état de l'agent (prison ou non)
+          Prend en paramètre l'id de la team et procède à la libération de tous les membres en prison"""
           for playerId in agent.range.keys():
               if agentState[playerId]['team'] == team and agentState[playerId]['state'] == 1:
                   agentState['state'] = 0
 
         def getJailPosition(agent):
-          print(agent.map)
-          """Renvoie les positions (x,y) des prisons dans un dictionnaire"""
+          """
+          :agent: l'agent
+          Renvoie les positions (x,y) des prisons dans un dictionnaire"""
           l = {'Jail0':[],'Jail1':[],'Jail2':[]}
           for x in range(len(agent.map)):
               for y in range(len(agent.map[0])):
@@ -177,6 +203,13 @@
           return l
 
         def keepInJail(playerId, agent, agentState, jails):
+          """
+          :playerId: Id du joueur
+          :agent: l'agent
+          :agentState: Etat de l'agent (prison ou non)
+          :jails: Coordonnées des prisons
+          Vérifie si le joueur est en prison et si oui, le garde dans la prison
+          """
           team = agentState[playerId]["team"]
           jail = "Jail" + str(team)
           #print(jails["Jail0"])
@@ -188,3 +221,5 @@
               print(jails[jail][n])
               agent.rulePlayer(playerId,'x',jails[jail][n][0])
               agent.rulePlayer(playerId,'y',jails[jail][n][1])
+
+        def 
