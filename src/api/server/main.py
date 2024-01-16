@@ -1,12 +1,18 @@
 import j2l.pytactx.agent as pytactx
 import functions
+import os
+from dotenv import load_dotenv
 
-agent = pytactx.Agent(playerId="",
-            arena="huntastic",
-            username="",
-            password="",
-            server="mqtt.jusdeliens.com",
-                        port=1883)
+load_dotenv()
+
+agent = pytactx.Agent(
+    playerId=os.getenv("AGENT_PLAYER_ID"),
+    arena=os.getenv("AGENT_ARENA"),
+    username=os.getenv("AGENT_USERNAME"),
+    password=os.getenv("AGENT_PASSWORD"),
+    server=os.getenv("AGENT_SERVER"),
+    port=int(os.getenv("AGENT_PORT"))
+)
 
 #création de l'arene
 functions.createRules(agent)
