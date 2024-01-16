@@ -41,6 +41,7 @@
       -backgrouns généré avec l'IA de Canva. 
 
 
+
 **🎮 Use cases**: 
     - pour l'administrateur : expliquer ce que peut/doit faire un administrateur qui souhaite lancer/administrer une arène de jeu avec des apprenants
     - 
