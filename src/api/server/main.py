@@ -1,10 +1,19 @@
 import j2l.pytactx.agent as pytactx
 import functions
 
+agent = pytactx.Agent(playerId="",
+            arena="huntastic",
+            username="",
+            password="",
+            server="mqtt.jusdeliens.com",
+                        port=1883)
+
 """Création of the arena"""
 functions.createRules(agent)
 
-
+for x in range(20,-1,-1):
+    agent.ruleArena("info", "-"+str(x))
+    agent.update()
 
 before = []
 teams = [0,0,0]
@@ -13,20 +22,6 @@ agent.ruleArena("info", "🟢 C'est parti !")
 
 agent.update()
 
-agents = {
-    "Poule": {
-        "x": 0,
-        "y": 0,
-    },
-    "Renard": {
-        "x": 5,
-        "y": 7,
-    },
-    "Viper": {
-        "x": 13,
-        "y": 3,
-    }
-}
 for agentId, attributes in agents.items():
     for attributeKey, attributeValue in attributes.items():
         agent.rulePlayer(agentId, attributeKey, attributeValue)
@@ -50,8 +45,6 @@ while True:
       #Update agents's position
         agentState[agentId]['x'] = agent.range[agentId]["x"]
         agentState[agentId]['y'] = agent.range[agentId]["y"]
-        agentState[agentId]['x'] = agent.range[agentId]['x']
-        agentState[agentId]['y'] = agent.range[agentId]['y']
         agentState[agentId]['life'] = agent.range[agentId]['life']
         agentState[agentId]['score'] = agent.range[agentId]['score']
 
@@ -75,10 +68,5 @@ while True:
               functions.free(1, agent, agentState)
           elif (agentState[agentId]['x'],agentState[agentId]['y']) in jails["Jail2"] and agentState[agentId]['team'] == 2:
               functions.free(2, agent, agentState)
-
-    agent.rulePlayer("Renard","x", 47)
-    agent.rulePlayer("Renard","y", 47)
-    agent.rulePlayer("Poule","x", 46)
-    agent.rulePlayer("Poule","y", 46)
 
     before = agentState
